@@ -1,24 +1,23 @@
-# Author: Shuai Li, University of Cambridge, shuai.li@eng.cam.ac.uk
-# Notice: Welcome to use the code under the terms of the GNU Public License (GPL), however please acknowledge its use with the citation:
+# Author: Shuai Li, University of Cambridge
+# Notice: Below source code is the core code, in case of any problem feel free to contact shuai.li@eng.cam.ac.uk
+# Welcome to use the code under the terms of the GNU Public License (GPL), however please acknowledge its use with the citation:
 ############
 #Collaborative Filtering Bandits
 #Shuai Li, Alexandros Karatzoglou, and Claudio Gentile
-#Proceedings of the 39th ACM SIGIR International Conference on Research and Development in Information Retrieval, pp. 539-548, Pisa, Tuscany, IT (SIGIR 2016)
+#Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 539-548, Pisa, Tuscany, IT (SIGIR 2016)
 #
 #Distributed Clustering of Linear Bandits in Peer to Peer Networks
 #Nathan Korda, Balázs Szörényi, and Shuai Li
 #Proceedings of the 33rd International Conference on Machine Learning, Journal of Machine Learning Research, pp. 1301-1309, New York City, NY, US (ICML 2016)
 #
+#The Art of Clustering Bandits
+#Shuai Li
+#Università degli Studi dell'Insubria, Dissertation, 2016
+#
 #Online Clustering of Bandits
 #Claudio Gentile, Shuai Li, and Giovanni Zappella
 #Proceedings of the 31st International Conference on Machine Learning, Journal of Machine Learning Research, pp. 757-765, Beijing, CN (ICML 2014)
 ############
-
-import numpy as np
-from LinUCB import *
-import math
-from scipy.sparse.csgraph import connected_components
-from scipy.sparse import csr_matrix
 
 class COFIBAUserStruct(LinUCBUserStruct):
 	def __init__(self,featureDimension, lambda_, userID):
@@ -167,9 +166,3 @@ class COFIBAAlgorithm(LinUCBAlgorithm):
 	def getLearntParameters(self, userID):
 		return self.users[userID].UserTheta
 	
-
-
-
-
-
-
