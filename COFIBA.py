@@ -1,5 +1,5 @@
-# Author: Shuai Li, University of Cambridge
-# Notice: Below source code is the core code, in case of any problem feel free to contact shuai.li@eng.cam.ac.uk
+# Shuai Li, Cambridge University
+# Notice that below sourcecode is the referenced code, in case any problem feel free to contact shuai.li@eng.cam.ac.uk
 # Welcome to use the code under the terms of the GNU Public License (GPL), however please acknowledge its use with the citation:
 ############
 #Collaborative Filtering Bandits
