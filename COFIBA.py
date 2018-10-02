@@ -1,6 +1,5 @@
-# Shuai Li, Cambridge University
-# Notice that below sourcecode is the referenced code, in case any problem feel free to contact shuai.li@eng.cam.ac.uk
-# Welcome to use the code under the terms of the GNU Public License (GPL), however please acknowledge its use with the citation:
+# Shuai Li, University of Cambridge, shuai.li@eng.cam.ac.uk
+# Notice: Welcome to use the code under the terms of the GNU Public License (GPL), however please acknowledge its use with below references:
 ############
 #Collaborative Filtering Bandits
 #Shuai Li, Alexandros Karatzoglou, and Claudio Gentile
@@ -14,9 +13,9 @@
 #Shuai Li
 #Università degli Studi dell'Insubria, Dissertation, 2016
 #
-#Online Clustering of Bandits
-#Claudio Gentile, Shuai Li, and Giovanni Zappella
-#Proceedings of the 31st International Conference on Machine Learning, Journal of Machine Learning Research, pp. 757-765, Beijing, CN (ICML 2014)
+#On Context-Dependent Clustering of Bandits
+#Claudio Gentile, Shuai Li, Alexandros Karatzoglou, Purushottam Kar, Evans Etrue Howard, and Giovanni Zappella
+#Proceedings of the 34th International Conference on Machine Learning, Journal of Machine Learning Research, pp. 1253-1262, Sydney, New South Wales, AU (ICML 2017)
 ############
 
 class COFIBAUserStruct(LinUCBUserStruct):
